@@ -7,3 +7,8 @@ We have added few more words here. in case we have to practice commiting and sta
 t 
 All in all learnt few new stuffs about git and github and how different commands work during operating on different folders and such stuffs.
 feel pretty confident to work with it now. more over this is a new beginning so the design is already crappy but working on backend will help me become more confident
+
+Today we will be doing some basic CSS
+
+Learning how CSS selectors work and how they affect how the view works
+Also from tomorrow, Sunday onwards we will be doing hkirat bhaiya's fullstack course on yt. 
