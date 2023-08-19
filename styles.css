@@ -1,3 +1,7 @@
 ol {
     background-color: aqua;
 }
+
+.image{
+    max-width: 10px;
+}
