@@ -12,7 +12,7 @@
         this goes to show that i am still new to understand how these tags are arranged by the document reader or how these tags follow the DOM hierarchy
     </p>
     <!--Adding comments to my code through a shortcut ctrl+/ -->
-    <ol>
+    <ol class="ordered-list">
         <li>First element in the ordered list</li>
         <li>Second element in the ordered list</li>
         <li>THird element in the ordered list</li>
@@ -20,7 +20,7 @@
         <li>last element in the ordered list</li>
 
     </ol>
-    <ul>
+    <ul id="unordered">
         <li>first element in the unordered list</li>
         <li>second element in the unordered list</li>
         <li>third element in the unordered list</li>
@@ -36,8 +36,12 @@
     <a href="/images/images.html">for images click here</a>
     <!-- By adding ./ you are specifying to your code that it should start looking for the file/directory relative to the current directory. -->
 
-    <img src="../git_test/images/cristina-anne-costello-NR2eMg9zXxA-unsplash.jpg" alt="an image of cute dog">
-    <!-- ../ used to get to root directory -->
+    <!-- <img src="../git_test/images/cristina-anne-costello-NR2eMg9zXxA-unsplash.jpg" alt="an image of cute dog"> -->
+    <!-- ../ used to get to root directory, but recomnneded for images or elements existing in the same directory, in this case single ./ works better -->
+    <div class="images">
+        <img src="./images/dog.jpg">
+    </div>
+    
 
 </body>
 </html>
