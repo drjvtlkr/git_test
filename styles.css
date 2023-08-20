@@ -11,13 +11,14 @@ img{
     max-width: 100px;
 } 
 
-.ordered-list{
+.ordered-list, .unordered {
     color: blanchedalmond;
     background-color: blue;
 }
 
-#unordered {
-    color: aliceblue;
-    background-color: rgb(94, 138, 37);
-    
+#ulforu{
+    color: rgb(189, 116, 7);
+    background-color: rgb(63, 0, 145);
+    justify-content: center;
+    align-content: center;
 }
