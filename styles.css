@@ -1,7 +1,23 @@
-ol {
-    background-color: aqua;
+/* ol {
+    background-color: rgb(0, 39, 214);
+} */
+
+img{
+    max-width: 50vw;
+    max-height: 25vw;
 }
 
-.image{
-    max-width: 10px;
+.images {
+    max-width: 100px;
+} 
+
+.ordered-list{
+    color: blanchedalmond;
+    background-color: blue;
+}
+
+#unordered {
+    color: aliceblue;
+    background-color: rgb(94, 138, 37);
+    
 }
