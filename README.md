@@ -12,3 +12,6 @@ Today we will be doing some basic CSS
 
 Learning how CSS selectors work and how they affect how the view works
 Also from tomorrow, Sunday onwards we will be doing hkirat bhaiya's fullstack course on yt. 
+
+
+at this point I have made use of classes and id in css styles sheet.
