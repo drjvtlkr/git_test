@@ -81,3 +81,17 @@ img{
    here rule 2 gets higher precedence because rule 1 has only one ID selector but rule 2 has a id and class
    selector
   */
+
+  #parent {
+    color: red;
+  }
+  
+  .child {
+    color: blue;
+  }
+
+  /* here child selector gets higher precedence over parent being a id selector,
+  because id becomes a inherited selector */
+
+  /* additionally whichever class selector was last used gets higher precedence over it's previous clsses,
+  this is done because the latest selector is considered as a proper version */
