@@ -15,6 +15,7 @@ img{
     color: blanchedalmond;
     background-color: blue;
 }
+/* here we are making use of two seperate classes, so we have to make use of comma","*/
 
 #ulforu{
     color: rgb(189, 116, 7);
@@ -22,3 +23,13 @@ img{
     justify-content: center;
     align-content: center;
 }
+
+.ancestor .contents {
+    /* some declarations */
+    color: #000;
+  }
+  /* so up above here we have made use of descendant combinator
+  this goes to show the syntax difference between the existing way of including two or more 
+  selectors, sepeating them with a comma , and for descendant combinator we make use of
+  blank single space */
+  /* we are using nested classes or descendant classes for that matter here */
