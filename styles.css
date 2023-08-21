@@ -33,3 +33,12 @@ img{
   selectors, sepeating them with a comma , and for descendant combinator we make use of
   blank single space */
   /* we are using nested classes or descendant classes for that matter here */
+
+
+  .subsection.header {
+    color: red;
+  }
+  
+   .subsection#preview {
+    color: blue;
+  } 
