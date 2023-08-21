@@ -35,10 +35,49 @@ img{
   /* we are using nested classes or descendant classes for that matter here */
 
 
-  .subsection.header {
-    color: red;
+.subsection.header {
+  color: red;
+}
+  
+.subsection#preview {
+    color: blue;
+} 
+/* id gets higher precendence */
+/* rule1 */
+.subsection {
+    color: blue;
+  }
+/* rule2 */
+.main .list {
+    color: #d0df00;
+}
+/* rule 2 is more specific becasue it has more class selectors */
+#anotherid {
+    color: #001f86;
+}
+
+/* rule 1 
+#subsection {
+    color: blue;
   }
   
-   .subsection#preview {
-    color: blue;
+  /* rule 2 
+  .main .list {
+    color: red;
   } 
+
+  here rule 1 gets higher precedence
+
+  #subsection {
+  background-color: yellow;
+  color: blue;
+}
+
+/* rule 2 
+.main #subsection {
+    color: red;
+   }
+
+   here rule 2 gets higher precedence because rule 1 has only one ID selector but rule 2 has a id and class
+   selector
+  */
