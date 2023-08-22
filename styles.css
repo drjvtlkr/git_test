@@ -21,8 +21,14 @@ img{
     display: flex;
     color: blanchedalmond;
     background-color: blue;
-    flex: 1;
+    /* flex: 1; */
     flex-direction: column;
+    justify-content: space-between;
+    /* aligns items across the main axis */
+    /* justufy-content is for horizontal plane called main axis*/
+    align-items: center;
+    /* align-items aligns content vertically, called cross axis */
+
 }
 /* here we are making use of two seperate classes, so we have to make use of comma","*/
 
