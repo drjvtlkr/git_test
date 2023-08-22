@@ -5,13 +5,17 @@
 img{
     width: auto;
     height: 500px;
+    display: flex;
 }
 
 .images {
     max-width: 100px;
+    display: flex;
+
 } 
 
 .ordered-list, .unordered {
+    display: flex;
     color: blanchedalmond;
     background-color: blue;
 }
