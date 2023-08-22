@@ -6,6 +6,9 @@ img{
     width: auto;
     height: 500px;
     display: flex;
+    flex-shrink: 1;
+    flex-basis: 0
+    ;
 }
 
 .images {
@@ -18,14 +21,13 @@ img{
     display: flex;
     color: blanchedalmond;
     background-color: blue;
+    flex: 1;
 }
 /* here we are making use of two seperate classes, so we have to make use of comma","*/
 
 #ulforu{
     color: rgb(189, 116, 7);
     background-color: rgb(63, 0, 145);
-    justify-content: center;
-    align-content: center;
 }
 
 .ancestor .contents {
