@@ -28,6 +28,8 @@ img{
     /* justufy-content is for horizontal plane called main axis*/
     align-items: center;
     /* align-items aligns content vertically, called cross axis */
+    gap: 10px;
+    /* here gap of 10 px between each flex item because justify-content: column, else gap is usually given for row items by default unless flex direction is not specified */
 
 }
 /* here we are making use of two seperate classes, so we have to make use of comma","*/
